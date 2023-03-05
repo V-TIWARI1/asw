@@ -4,19 +4,17 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(167, 233, 69);
-  
-
+    background-color: rgb(231, 245, 243);
 }
 footer{
     width: 100%;
-    position: absolute;
+    position:absolute;
     bottom: 0%;
-    background-color: rgb(206, 205, 255);
-    color: black;
+    background-color: rgb(200, 199, 229);
+    color: rgb(33, 59, 67);
     padding: 100px;
-    font-size: 25px;
-    line-height: 20px;
+    font-size: 15px;
+    line-height: 25px;
 }
 .row{
     width: 85%;
@@ -27,12 +25,14 @@ footer{
 }
 .col{
     flex-basis:25% ;
-    padding: 10px;
+    padding: 5px;
 }
 .logo{
-    width: 60px;
-    height: 60px;
-    margin: 2px;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    margin-top: 12px;
+
 }
 .col h3{
     width: fit-content;
@@ -41,4 +41,7 @@ footer{
 .img{
     padding-block:10% ;
     
+}
+.p{
+    font-size: 15px;
 }
