@@ -1,0 +1,149 @@
+.header-banner {
+    height: 500px;
+    background-image: url("./img/university.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-row {
+    width: 100%;
+    display: block;
+    overflow: auto;
+}
+
+.header-col50 {
+    width: 50%;
+    float: left;
+    flex: 1;
+}
+
+.header-title {
+    margin-top: 20px;
+    font-size: 35px;
+    float: left;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.header-item{
+    margin-top:20px;
+    margin-left: 25px;
+    float: left;
+
+}
+
+.header-button-group{
+    margin-top: 10px;
+    float: left;
+
+}
+
+.header-button-item{
+    margin-left: 10px;
+    float: left;
+    
+}
+
+.button {
+    border: none;
+    width: 80px;
+    height: 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+  }
+
+  .button-blue{
+    background-color: #4CAF50;
+
+  }
+
+  .button-blue:hover{
+    background-color: #046307;
+  }
+
+  .button-brown{
+    background-color: orange;
+  }
+
+  .button-brown:hover{
+    background-color: rgb(123, 82, 5);
+  }
+
+a:link {
+    text-decoration: none;
+    color:black;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color:black;
+  }
+  
+a:hover {
+    text-decoration: none;
+    color:brown;
+    
+}
+
+
+.search-icon{
+    height: 35px;
+    width: 35px;
+}
+
+.search-icon:hover{
+    height: 35px;
+    width: 35px;
+}
+
+
+.banner-title{
+    padding-left: 520px;
+    padding-top: 200px;
+    font-size: 60px;
+    color:black;
+}
+
+.banner-sub-title {
+    padding-left: 460px;
+    padding-top: 10px;
+    font-size: 30px;
+    color:green;
+}
+
+.transbox {
+    margin-top: 100px;
+    margin-left: 350px;
+    height: 300px;
+    width: 600px;
+    background-color: #000;
+    color: #fff;
+    opacity: .7;
+
+}
+
+.banner-title {
+
+}
+
+.button-major {
+    border: none;
+    width: 250px;
+    height: 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    background-color: rgb(210, 12, 12);
+}
+.button-major:hover {
+    background-color: rgb(244, 128, 128);
+}
