@@ -1,0 +1,64 @@
+.image {
+	background-image: url(../blog-section/butterfly.webp);
+	height: 250px;
+    width: 100%;
+}
+.About-page-heading h1{
+    display: block;
+    color: white;
+    line-height: 50px;
+    text-align: left;
+    font-size: 50px;
+}
+.About-page-heading p{
+    display: block;
+    color: white;
+    line-height: 30px;
+    text-align: left;
+    font-size: 30px;
+}
+.about-section{
+    margin-top:none;
+    width: 100%;
+    position:relative;
+    bottom: 0%;
+    background-color: rgb(246, 245, 244);
+    color: rgb(33, 59, 67);
+    padding: 50px;
+    font-size: 15px;
+    line-height: 25px;
+}
+.about-us-text{
+    display:inline-block;
+    width: 79%;
+    height: 300px;
+}
+.about-us-menu{
+    display: inline-block;
+    width: 20%;
+    height: 100px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.menu-title-1{
+    color:rgb(226, 219, 184); 
+    background:rgb(36, 36, 126);
+    text-align:center;
+    height: 50px;
+}
+.menu-title-1:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.menu-title-2{
+    color:rgb(36, 36, 126);
+    border-color: black;
+    background:rgb(226, 219, 184); 
+    text-align: center;
+    height: 50px;
+}
+.menu-title-2:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
