@@ -4,14 +4,14 @@
     width: 100%;
 }
 .About-page-heading h1{
-    display: block;
+    display:inline;
     color: white;
     line-height: 50px;
     text-align: left;
     font-size: 50px;
 }
 .About-page-heading p{
-    display: block;
+    display:inline;
     color: white;
     line-height: 30px;
     text-align: left;
