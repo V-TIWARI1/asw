@@ -1,0 +1,24 @@
+.blog-page-contents{
+    padding: 50px;
+    background-color: rgb(248, 251, 251);
+}
+.blog-page-heading{
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(88, 11, 160);
+}
+.blog-page-info{
+    background-color: rgb(236, 190, 37);
+    width:fit-content;
+    padding: 5px;
+    height: auto;
+}
+.blog-page-text{
+    color: black;
+}
+.blog-button{
+    width:fit-content;
+    padding: 5px;
+    background-color:rgb(11, 11, 77);
+    color: aliceblue;
+    cursor: pointer;
+}
