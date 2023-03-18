@@ -1,0 +1,78 @@
+.event-date-month {
+margin: left 25px;
+margin-top: 15px;
+background-color: rgb(7, 40, 117);
+text-align: center;
+width: 90px;
+height: 90px;
+border-radius: 50%;
+position: absolute;
+}
+.event-month{
+margin-top:15px;
+margin-bottom: 0;
+color: white;
+font-size: 30px;
+font-weight: 300;
+}
+.event-date
+{
+margin:0;
+color: white;
+font-size: 30px;
+font-weight: 300;
+}
+.events{
+    padding: 45px;
+    height: 100%;
+}
+.single-event-date{
+    height: auto;
+}
+.single-event-date:hover{
+    transition-duration: 0.5s;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.single-event-content{
+    padding: 20px;
+}
+.single-event-intro{
+    flex-basis: 50%;
+
+}
+.single-event-para{
+    position: relative;
+    padding: 0px;
+    margin-left: 150px;
+  
+}
+.single-event-title{
+    position: relative;
+    padding-top: 15px;
+    margin-left: 150px;
+    margin-top: 10px0;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.single-event-title:hover{
+    cursor: pointer;
+    text-decoration: none;
+  }
+.Learn-more-span {
+color:gray;
+}
+.Learn-more-span:hover {
+text-decoration-line: underline;
+cursor: pointer;
+}
+.extra{
+    padding: 15px;
+}
+.extra-link{
+    color: rgb(13, 13, 172);
+}
+.extra-link:hover{
+    text-decoration-line: underline;
+    cursor: pointer;  
+}

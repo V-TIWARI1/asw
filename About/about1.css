@@ -1,6 +1,8 @@
 .image {
-	background-image: url(../blog-section/white.jpg);
-	height: 250px;
+	background-image: url(../images/university.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 200px;
     width: 100%;
 }
 .about-section{
