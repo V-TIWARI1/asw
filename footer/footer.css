@@ -1,14 +1,10 @@
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: rgb(237, 246, 245);
-}
 footer{
+    margin-top:5px;
     width: 100%;
-    position:absolute;
+    position:relative;
     bottom: 0%;
     background-color: rgb(228, 228, 236);
     color: rgb(33, 59, 67);
@@ -42,6 +38,24 @@ footer{
     padding-block:10% ;
     
 }
+.col h2{
+    font-weight: 100;
+}
 .p{
     font-size: 15px;
+}
+
+a:link{
+    text-decoration: underline;
+    color:black;
+}
+  
+a:visited{
+    text-decoration: underline;
+    color:black;
+}
+  
+a:hover{
+    text-decoration: underline;
+    color:brown;
 }

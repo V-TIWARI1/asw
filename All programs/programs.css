@@ -1,0 +1,24 @@
+.programs{
+    margin: 50px;
+    height: auto;
+}
+.program-name{
+    display: block;
+    padding: 50px;
+    color: rgb(255, 25, 0);
+    text-decoration: underline;
+}
+.program-name:hover{
+    text-decoration: underline;
+    pointer-events: all;
+}
+.single-program-title{
+    position: relative;
+    display: block;
+    color: rgb(255, 25, 0);
+    text-decoration: underline;
+}
+.single-program-title:hover{
+    cursor: pointer;
+    text-decoration: none;
+  }
