@@ -1,0 +1,28 @@
+.transbox{
+    background-color: black;
+    width: 80%;
+    align-items: center;
+}
+.slide-heading{
+    padding: 5px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.slide-para{
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+.button{
+    align-content: center;
+}
+.button-major{
+    background-color: tomato;
+    border-radius: 5px;
+    padding: 2px;
+    text-align: center;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}

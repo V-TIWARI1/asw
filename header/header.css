@@ -1,27 +1,33 @@
 .header-banner {
-    background-image: url("../images/university.jpg");
+    background-image: url("../images/black.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 250px;
+    height: 300px;
 }
 .page-heading h2{
-    margin-top: 75px;
-    margin-left: 20px;
+    margin-top: 90px;
+    margin-left: 150px;
     margin-bottom: 0px;
     height: 50px; 
-    font-size: 50px;
+    font-size: 80px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    font-stretch: condensed;
     
 }
 .page-heading p{
     height: 20px; 
-    font-size: 20px;
-    margin-left: 20px;
+    font-size: 25px;
+    margin-left: 150px;
+    padding-top: 50px;
+    color: white;
+    opacity: 0.9;
 }
 
 .header-row {
     width: 100%;
-    height: 250px;
+    height: 300px;
     display: block;
     overflow: auto;
 }
@@ -34,18 +40,19 @@
 
 .header-title {
     padding: 5px;
-    font-size: 50px;
+    font-size: 30px;
     width:auto;
     height: 60px;
     float: left;
     font-family: "Times New Roman", Times, serif;
+    color:white;
 }
 
 .header-item{
     margin-top:20px;
     margin-left: 25px;
     float: left;
-
+    color: white;
 }
 
 .header-button-group{
@@ -74,36 +81,38 @@
   }
 
   .button-blue{
-    background-color: #4CAF50;
-
+    background-color: #da9046;
+    color: white;
   }
 
   .button-blue:hover{
-    background-color: #046307;
+    opacity: 0.7;
   }
 
   .button-brown{
-    background-color: orange;
+    background-color: tomato;
+    color: white;
   }
 
   .button-brown:hover{
-    background-color: rgb(123, 82, 5);
+    opacity: 0.7;
   }
 
 a:link {
-    text-decoration: none;
-    color:black;
-  }
-  
-  a:visited {
-    text-decoration: none;
-    color:black;
-  }
-  
+text-decoration: none;
+color: #fff;
+}
+
+a:visited {
+text-decoration: none;
+color:white;
+}
+
 a:hover {
-    text-decoration: none;
-    color:brown;
-    
+text-decoration: none;
+color:whitesmoke;
+opacity: 0.5;
+
 }
 
 
