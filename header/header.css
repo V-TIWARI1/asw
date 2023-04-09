@@ -114,26 +114,20 @@ color:whitesmoke;
 opacity: 0.5;
 
 }
-
-
 .search-icon{
     height: 35px;
     width: 35px;
 }
-
 .search-icon:hover{
     height: 35px;
     width: 35px;
 }
-
-
 .banner-title{
     padding-left: 520px;
     padding-top: 200px;
     font-size: 60px;
     color:black;
 }
-
 .banner-sub-title {
     padding-left: 460px;
     padding-top: 10px;

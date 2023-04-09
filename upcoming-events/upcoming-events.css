@@ -1,17 +1,21 @@
-.parent {
-    position:absolute;
-    top:0%;
+.event-parent {
+    position:relative;
+    display: inline-block;
+    width: 50%;
+    top:0%; 
     right:0%;
     bottom:0%;
     left:0%;
-    height:350vh;
+    height: 60vh;
+
 }
 
 .event-section {
-    margin-top: 30%;
-    height: 20%;
-    width:50%;
+    height: 100%;
+    width:100%;
     position:absolute;
+    background-color: white;
+    
 }
 
 .event-title-banner{
@@ -70,7 +74,7 @@
    height:100%;
 }
 
-.date-month {
+.event-date-month {
     margin-left:50px;
     background-color: rgb(13,59,102);
     text-align: center;
@@ -88,7 +92,6 @@
 }
 .month
 {
-
     margin-top:10px;
     margin-bottom: 0;
     color: white;
