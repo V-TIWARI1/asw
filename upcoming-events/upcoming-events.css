@@ -1,12 +1,12 @@
 .event-parent {
     position:relative;
-    display: inline-block;
-    width: 50%;
+    flex-basis: 47%;
     top:0%; 
     right:0%;
     bottom:0%;
     left:0%;
-    height: 60vh;
+    height: 70vh;
+    margin-bottom: 10vh;
 
 }
 
@@ -42,6 +42,7 @@
 .all-event-button-section{
     position:absolute;
     top:70%;
+    
     height:30%;
     width:100%;
 }
@@ -70,7 +71,7 @@
 .single-event-intro{
    position:relative;
    float: left;
-   width:68%;
+   width:70%;
    height:100%;
 }
 
