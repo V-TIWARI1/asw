@@ -25,10 +25,12 @@
 }
 .page-heading p{
     height: 20px; 
-    font-size: 25px;
     margin-left: 150px;
     padding-top: 50px;
     color: white;
+    font-family:'Times New Roman', Times, serif; 
+    font-stretch: condensed; 
+    font-size: 30px;
     opacity: 0.9;
 }
 
