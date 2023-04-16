@@ -1,25 +1,71 @@
 .blog-page-contents{
-    padding: 50px;
+    padding-left:  150px;
+    padding-right: 150px;
+    padding-top: 15px;
     background-color: rgb(248, 251, 251);
 }
-
 .blog-page-heading{
-    font-family:'Times New Roman', Times, serif;
-    color: rgb(88, 11, 160);
+
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(45 65 101);
+    font-size: 50px;
+    
 }
-.blog-page-info{
-    background-color: rgb(236, 190, 37);
-    width:fit-content;
+.info-box{
+    margin-top: -25px;
     padding: 5px;
-    height: auto;
+    height: px;
+}
+.blog-page-info {
+    background-color: wheat;
+    width: 275px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-top: 1px;
+    padding-bottom: 0.25px;
+    color: rgb(243 202 125);
+}
+.blog-page-info-text{
+    color:rgb(109 129 48);
+}
+#info-item {
+    color:rgb(109 129 48);
 }
 .blog-page-text{
     color: black;
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
-.blog-button{
-    width:fit-content;
-    padding: 5px;
-    background-color:rgb(11, 11, 77);
-    color: aliceblue;
+
+.page-heading h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-stretch: condensed;
+}
+.page-heading p{
+    font-size: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blog-button-section{
+position:relative;
+margin-bottom: 20px;
+}
+.blog-text-box{
+display: inline-block;  
+width: 200px;
+background-color: rgb(24, 45, 83);
+color: white;
+text-align: center;
+font-size: 20px;
+font-weight: 500px;
+border-radius: 5px;
+}
+.blog-text-box:hover{
     cursor: pointer;
+    opacity: 0.7;
+}
+.blog-text{
+    margin-left: 10px;
+    margin-right: 10px;
 }

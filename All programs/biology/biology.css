@@ -1,0 +1,118 @@
+.award-text{
+    padding: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.Program-home-button{
+    color: white;
+    padding: 10px;
+    height: 50px;
+    width: 125px;
+    background-color: rgb(31, 58, 110);
+    margin-left: 150px;
+    margin-top: -5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+ }
+.Program-home-button:hover{
+    text-decoration:wavy;
+}
+.info-box{
+    margin-top: -25px;
+}
+
+.blog-page-info{
+    background-color:wheat;
+    width: 70px;
+    height: 47px;
+    border-radius: 5px;
+    padding-left: 1rem;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: rgb(243 202 125);
+    margin-left: 275px;
+    margin-top: -50px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.blog-page-info-text{
+    color:rgb(109 129 48);
+}
+#info-item {
+    color:rgb(109 129 48);
+}
+.img{
+    display: flex;
+    height: 250px;
+    width: 250px;
+}
+.professor-block{
+    display: flex;
+    margin-top: 50px;
+}
+.professor{
+    margin-left: 150px;
+    width: 100%;
+    height: 125px;
+}
+.shake{
+    display:block;
+    float: left;
+    position: relative;
+    
+}
+#image{
+    width:fit-content;
+    height:fit-content;
+    float: left;
+    margin-left: 20px;
+}
+#name{
+    font-size: 15px;
+    background-color: red;
+    margin-top: -35px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 140px;
+    height: 25px;
+    padding: 5px;
+    color:white;
+}
+h2.shake,
+.shake.inline{
+    display:inline-block;
+}
+.shake.image-info.h2{
+    color: black;
+    background: #188;
+}
+.shake:hover,.shake:focus{
+    animation-name: animate;
+    animation-duration: 0.9s;
+    transform-origin:50% 50%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes animate{
+    0%{transform: translate(2px,1px) rotate(0deg);}
+    10%{transform: translate(-1px,-2px) rotate(-1deg);}
+    20%{transform: translate(-3px,0px) rotate(1deg);}
+    30%{transform: translate(0px,2px) rotate(0deg);}
+    40%{transform: translate(1px,-1px) rotate(1deg);}
+    50%{transform: translate(-1px,-2px) rotate(-1deg);}
+    60%{transform: translate(-3px,1px) rotate(0deg);}
+    70%{transform: translate(2px,1px) rotate(-1deg);}
+    80%{transform: translate(-1px,-1px) rotate(1deg);}
+    90%{transform: translate(2px,2px) rotate(0deg);}
+    100%{transform: translate(1px,-2px) rotate(-1deg);}
+}
+#event{
+    margin-left: 30px;
+    margin-top: -100px;
+}
+#bio-event-title{
+    height: 10px;
+}
